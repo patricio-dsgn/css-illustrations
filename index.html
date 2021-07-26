@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tarea 1</title>
+	<link rel="stylesheet" href="">
+
+	<style>
+
+		*{
+			margin: 0;
+			padding: 0;
+			border: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			position: relative;
+			display: block;
+			background: #C87570;
+			color: #381F38;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		}
+
+		/*-*/
+
+		header{
+			position: relative;
+			display: block;
+			background: #271427;
+			padding: 10px 0%;
+			width: 90%;
+			top: 0;
+			left: 5%;
+			text-align: center;
+			margin-top: 70px;
+			border-radius: 70px 70px 10px 10px;
+		}
+
+		header p{
+			font-style: italic;
+			color: #6BA9B1;
+
+		}
+		header p span{
+			font-weight: bold;
+			color: #EE405D;
+		}
+
+		/*-*/
+
+				footer{
+			position: relative;
+			display: block;
+			background: #271427;
+			padding: 10px 0%;
+			color: #fff;
+			width: 90%;
+			top: 0;
+			left: 5%;
+			text-align: center;
+			border-radius: 10px 10px 70px 70px;
+			margin-bottom: 70px;
+		}
+
+		footer p{
+			font-style: italic;
+
+		}
+		footer p span{
+			font-weight: bold;
+		}
+
+		/*-*/
+
+		.anim_kid {
+			position: relative;
+			display: inline-block;
+			top: 40px;
+			left: 40px;
+			width: 500px;
+			height: auto;
+			/*border: 1px solid #000;*/
+			text-align: center;
+			margin-bottom: 30px	;
+		}
+
+		img{
+			position: relative;
+			display: inline-block;
+			width: 100%;
+		}
+
+		.anim_kid figcaption{
+			position: absolute;
+			display: inline-block;
+			bottom: 40px;
+			left: 0px;
+			z-index: 2000;
+			width: 500px;
+			height: auto;
+		}
+
+
+
+
+		section{
+			position: relative;
+			display: block;
+			width: 90%;
+			height: auto;
+			margin: 10px auto ;
+			background: rgb(255,241,232);
+			border-radius: 10px;
+			padding: 0 100px 50px;
+		}
+
+		h1{
+			position: relative;
+			display: block;
+			vertical-align: top;
+			top: 0px;
+			left: 0px;
+			font-size: 3rem;
+			margin: auto auto;
+		}
+
+		h1 span{
+			padding: 5px;
+			position: relative;
+			display: inline-block;
+			padding: 0 1rem;
+			border-radius: 5px;
+		}
+
+		h2{
+			position: relative;
+			display: block;
+			vertical-align: top;
+			top: 30px;
+			left: 0px;
+			font-size: 3rem;
+			margin: auto auto 50px;
+			font-weight: normal;
+		}
+
+		h2 span:nth-child(1){color: #EE405D;}
+		h2 span:nth-child(2){color: #654566;}
+
+
+		h1 span:nth-child(1){color: #fff; background: #EE405D; transform: rotate(4deg);}
+		h1 span:nth-child(2){color: #fff; background: #654566; transform: rotate(-3deg);}
+		h1 span:nth-child(3){color: #fff; background: #5F9BA7; transform: rotate(3deg);}
+		h1 span:nth-child(4){color: #fff; background: #F88A77; transform: rotate(-4deg);}
+
+		p{
+			margin: 20px 0;
+			max-width: 60ch;
+		}
+
+		p.one{color: #EE405D; }
+		p.two{color: #5F9BA7; }
+
+
+		ul{
+			position: relative;
+			display: inline-block;
+			margin-bottom: 50px;
+			background-color: #90B8BD;
+			border-radius: 10px;
+			padding: 20px;
+		}
+
+		li{
+			list-style: square;
+			margin-left: 20px;
+			margin-bottom: 15px;
+			max-width: 50ch;
+		}
+
+		a{
+			text-decoration: none;
+			color:#5F9BA7;
+		}
+	</style>
+
+</head>
+<body>
+
+	<header>
+		<p>Trabajo de <span>Patricio Andrés Garrido García</span></p>
+	</header>
+
+	<section>
+
+		<figure class="anim_kid">
+			<img src="http://idd.cl/dev/images-demo/e03ea8b3f5c69b21e353486208fb1a7f.gif" alt="kid">
+			<figcaption>GIF animado de un chico tocando guitarra</figcaption>
+		</figure>
+
+		<h1><span>Patricio</span> <span>Andrés</span> <span>Garrido</span> <span>García</span></h1>
+		<h2><span>UX</span> / <span>UI</span> Designer</h2>
+
+		<ul>
+			<li>Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
+			<li>Ex aliquid quisquam corporis dolores ab nam cumque nulla</li>
+			<li>Adipisci vitae maxime ipsa blanditiis hic, odit</li>
+			<li>Obcaecati eos quasi repellat facere, culpa ipsum nobis</li>
+			<li>Dolores reiciendis, natus? Dolor, ullam</li>
+			<li>Consequatur a magni provident assumenda odio porro</li>
+			<li>Reprehenderit quia quo voluptatem libero autem quidem doloribus</li>
+			<li>Cupiditate est reiciendis eaque, quam dolorem delectus</li>
+		</ul>
+
+
+		<p class="one">Lor
+		em ipsum, dolor sit amet consectetur adipisicing elit. Facere ex doloremque ipsum nam id, quod sed, quia aspernatur doloribus reiciendis incidunt fugiat aliquam enim beatae,</p>
+
+		<p class="two">adipisci vitae corrupti illum consequatur repellendus ea excepturi. Distinctio accusamus maiores temporibus iste deserunt assumenda, fuga consequatur quas minima rerum quia</p>
+
+	</section>
+
+
+
+
+
+	<footer>
+		<p>email: <a href = "mailto: patricio.ngg@gmail.com">patricio.ngg@gmail.com</a>
+</p>
+
+	</footer>
+</body>
+</html>
